@@ -1,0 +1,68 @@
+{
+  "questions": [
+    {
+      "category": "geography",
+      "q_text": "Σε ποιά χώρα γεννήθηκε ο Messi?",
+      "a_text": "Αργεντινή",
+      "extra_file_question": "empty",
+      "extra_file_answer": "empty",
+      "points": 1
+    },
+    {
+      "category": "history",
+      "q_text": "Ποιο έτος γεννήθηκε ο Messi?",
+      "a_text": "1985",
+      "extra_file_question": "empty",
+      "extra_file_answer": "empty",
+      "points": 2
+    },
+    {
+      "category": "top5",
+      "q_text": "top 5 συμπαίκτες μέσσι με περισσότερες συμμετοχές",
+      "a_text": "empty",
+      "extra_file_question": "empty",
+      "extra_file_answer": "photo1.png",
+      "points": 3
+    },
+    {
+      "category": "playerId",
+      "q_text": "βρες τον παίκτη απο το βιογραφικό του",
+      "a_text": "Σουάρεζ",
+      "extra_file_question": "photo3.png",
+      "extra_file_answer": "empty",
+      "points": 2
+    },
+    {
+      "category": "clubCombo",
+      "q_text": "Arsenal Barcelona",
+      "a_text": "Henry, Fabregas",
+      "extra_file_question": "photo5.png",
+      "extra_file_answer": "empty",
+      "points": 1
+    },
+    {
+      "category": "logo",
+      "q_text": "Ποιανής ομάδας είναι αυτό το Λογότυπο;",
+      "a_text": "Inter Miami fc",
+      "extra_file_question": "photo6.png",
+      "extra_file_answer": "empty",
+      "points": 2
+    },
+    {
+      "category": "fansQuestion",
+      "q_text": "πόσα παιδιά έχει ο Μέσσι;",
+      "a_text": "2",
+      "extra_file_question": "empty",
+      "extra_file_answer": "empty",
+      "points": 1
+    },
+    {
+      "category": "whosMissing",
+      "q_text": "Ποιο λείπει απο την ενδεκάδα?",
+      "a_text": "Ροναλντίνιο",
+      "extra_file_question": "photo2.png",
+      "extra_file_answer": "empty",
+      "points": 2
+    }
+  ]
+}
