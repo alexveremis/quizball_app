@@ -1,21 +1,30 @@
+import { NavigationProp, useNavigation } from '@react-navigation/native';
 import React from 'react';
 import { Button, StyleSheet, Text, View } from 'react-native';
-import { useNavigate } from 'react-router-native';
 
+type RootStackParamList = {
+  Home: undefined;
+  Play: undefined;
+  Settings: undefined;
+  Rules: undefined;
+};
 
-export default function HomeScreen() {
-  const navigate = useNavigate();
+const HomeScreen = () => {
+  const navigation = useNavigation<NavigationProp<RootStackParamList>>();
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>QuizBall</Text>
       <View style={styles.buttonContainer}>
-        <Button title="Play" onPress={() => navigate('Play')} />
-        <Button title="Settings" onPress={() => navigate('Settings')} />
-        <Button title="Rules" onPress={() => navigate('Rules')} />
+        <Button title="Play" onPress={() => navigation.navigate('Play')} />
+        <Button title="Settings" onPress={() => navigation.navigate('Settings')} />
+        <Button title="Rules" onPress={() => navigation.navigate('Rules')} />
       </View>
     </View>
   );
-}
+};
+
+export default HomeScreen;
 
 const styles = StyleSheet.create({
   container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
